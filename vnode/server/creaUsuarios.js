@@ -1,4 +1,4 @@
-var Usuario = require('./modeloDeUsuarios.js')
+var Usuario = require('./modelUsuarios.js')
 
 module.exports.crearUsuarioDemo = function(callback){
   var arr = [{ email: 'us01@gmail.com', user: "us01", password: "123456"}, { email: 'demo@gmail.com', user: "demo", password: "123456"}]; 

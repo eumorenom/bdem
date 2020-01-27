@@ -1,7 +1,7 @@
 const RouterEventos = require('express').Router();
-const Usuario = require('./modeloDeUsuarios.js')
+const Usuario = require('./modelUsuarios.js')
 //modelo eventos
-const Evento = require('./modeloDeEventos.js') 
+const Evento = require('./modelEventos.js') 
 const Operaciones = require('./creaUsuarios.js')
 let ObjectId = require('mongoose').Types.ObjectId;
 

@@ -12,7 +12,7 @@ const http = require('http');
       MongoClient = require('mongodb').MongoClient, 
       mongoose = require('mongoose'),
       
-	     connection = mongoose.connect('mongodb://localhost/bd_agenda', {useMongoClient: true}, function(error){
+	     connection = mongoose.connect('mongodb://localhost/bdAgenda', {useMongoClient: true}, function(error){
 			 
            if(error){
 

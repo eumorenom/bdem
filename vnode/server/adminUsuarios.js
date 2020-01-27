@@ -1,7 +1,7 @@
 //
 const Router = require('express').Router();
-const Usuarios = require('./modeloDeUsuarios.js')
-const Eventos = require('./modeloDeEventos.js')
+const Usuarios = require('./modelUsuarios.js')
+const Eventos = require('./modelEventos.js')
 const Operaciones = require('./creaUsuarios.js')
 
 
